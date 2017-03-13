@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+#wrapper {
+    font-family: sans-serif;
+    max-width: 30rem;
+    border: B6D5E1 solid #666;
+    background-color: #555273;
+    color: white;
+    padding: 2em;
+    text-align: center;
+    font-family: 'bebasregular';
+}
+
+img {
+    width: 200px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.7em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'bebasregular';
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#groceryList li {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1em 0;
+    background-color: #E2EFF1;
+    border-bottom: 4px solid #555273;
+    color: #555273;
+    transition: .2s;
+}
+
+#groceryList li:hover {
+    background-color: #ff5e5e;
+    transition: .2s;
+    cursor: pointer;
+    color: #fff;
+}
+
+footer {
+    background-color: ccc;
+}
+
+#groceryList {
+    margin-top: 2em;
+}
+
+button {
+    cursor: pointer;
+    width: 90%;
+    margin: 2em 5%;
+    background-color: #65799B;
+    border: none;
+    font-size: 1.5em;
+    color: #fff;
+    padding: 1.2em;
+    font-family: 'bebasregular';
+    transition: .2s;
+}
+
+button:hover {
+    background-color: #82e089;
+    color: #fff;
+    transition: .2s;
+}
+
+footer {
+    background-color: #65799B;
+    max-width: 30rem;
+    padding: 2em;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    margin: 0;
+    padding: 1em 0em;
+}
+
+footer ul li {
+    padding: 5px;
+    margin: 0 auto;
+    display: inline;
+    list-style: none;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+footer ul li:hover {
+    transition: .3s;
+    color: rgba(255, 255, 255, 0.78);
+    cursor: pointer;
+}
