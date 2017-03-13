@@ -30,7 +30,7 @@ function addItem() {
 
     //    Use innerHTML on created list item and assign it with user input 
     //    from prompt("Enter a new item for to-do list:").
-    var newItem = prompt("add new item");
+    var newItem = prompt("Add a workout");
     listItem.innerHTML = newItem;
 
     if (newItem != null) {
